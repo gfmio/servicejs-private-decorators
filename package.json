@@ -12,6 +12,7 @@
     "lint": "exit 0",
     "fmt": "prettier --write .",
     "test": "mocha",
+    "typecheck": "tsc --noEmit",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
