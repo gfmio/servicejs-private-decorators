@@ -2,7 +2,6 @@
   "name": "@servicejs-private/decorators",
   "description": "@servicejs-private/decorators",
   "version": "0.0.0",
-  "private": true,
   "exports": null,
   "type": "module",
   "files": [],
@@ -15,7 +14,8 @@
     "typecheck": "tsc --noEmit",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "postpack": "pinst --enable",
+    "check-version": "node -p \"require('./package.json').version\""
   },
   "devDependencies": {
     "@types/chai": "^4.3.11",
