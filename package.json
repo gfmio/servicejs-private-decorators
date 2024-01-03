@@ -14,6 +14,27 @@
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts",
       "node": "./dist/index.js"
+    },
+    "./compat": {
+      "default": "./dist/compat/index.js",
+      "import": "./dist/compat/index.js",
+      "require": "./dist/compat/index.js",
+      "types": "./dist/compat/index.d.ts",
+      "node": "./dist/compat/index.js"
+    },
+    "./experimental": {
+      "default": "./dist/experimentalDecorators/index.js",
+      "import": "./dist/experimentalDecorators/index.js",
+      "require": "./dist/experimentalDecorators/index.js",
+      "types": "./dist/experimentalDecorators/index.d.ts",
+      "node": "./dist/experimentalDecorators/index.js"
+    },
+    "./stage3": {
+      "default": "./dist/stage3Decorators/index.js",
+      "import": "./dist/stage3Decorators/index.js",
+      "require": "./dist/stage3Decorators/index.js",
+      "types": "./dist/stage3Decorators/index.d.ts",
+      "node": "./dist/stage3Decorators/index.js"
     }
   },
   "files": ["dist"],
