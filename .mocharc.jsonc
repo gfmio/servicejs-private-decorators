@@ -1,9 +1,6 @@
 {
     "diff": true,
-    "extension": [
-        "ts",
-        "tsx"
-    ],
+    "extension": ["ts", "tsx"],
     "package": "./package.json",
     "reporter": "spec",
     // "require": [

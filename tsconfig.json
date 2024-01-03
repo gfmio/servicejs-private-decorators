@@ -5,12 +5,10 @@
     "sourceMap": false,
     "inlineSourceMap": false,
     "declarationMap": false,
-    "outDir": "./dist",
+    "outDir": "./dist"
   },
   "files": [],
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "exclude": [],
   "references": []
 }
