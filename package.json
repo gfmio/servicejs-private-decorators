@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "lint": "exit 0",
+    "lint": "prettier --check .",
     "fmt": "prettier --write .",
     "test": "mocha",
     "typecheck": "tsc --noEmit",
