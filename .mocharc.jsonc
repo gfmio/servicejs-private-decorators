@@ -1,0 +1,22 @@
+{
+    "diff": true,
+    "extension": [
+        "ts",
+        "tsx"
+    ],
+    "package": "./package.json",
+    "reporter": "spec",
+    // "require": [
+    //     "ts-node/register"
+    // ],
+    "node-option": [
+        "experimental-specifier-resolution=node",
+        "loader=ts-node/esm"
+    ],
+    "slow": 75,
+    "spec": "**/*.test.@(ts|tsx)",
+    "timeout": 2000,
+    "ui": "bdd",
+    "watch-files": "**/*.@(ts|tsx)",
+    "watch-ignore": []
+}
