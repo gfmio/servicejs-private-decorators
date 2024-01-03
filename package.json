@@ -1,7 +1,7 @@
 {
   "name": "@servicejs-private/decorators",
   "description": "@servicejs-private/decorators",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "UNLICENSED",
   "exports": null,
   "type": "module",
