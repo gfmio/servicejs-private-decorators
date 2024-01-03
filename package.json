@@ -1,0 +1,25 @@
+{
+  "name": "@servicejs-private/decorators",
+  "description": "@servicejs-private/decorators",
+  "version": "0.0.0",
+  "packageManager": "yarn@4.0.2",
+  "private": true,
+  "exports": null,
+  "files": [],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "exit 0",
+    "fmt": "prettier --write .",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
