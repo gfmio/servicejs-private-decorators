@@ -3,9 +3,20 @@
   "description": "@servicejs-private/decorators",
   "version": "0.1.0",
   "license": "UNLICENSED",
-  "exports": null,
   "type": "module",
-  "files": [],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "node": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
