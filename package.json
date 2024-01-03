@@ -14,8 +14,7 @@
     "typecheck": "tsc --noEmit",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
-    "postpack": "pinst --enable",
-    "check-version": "node -p \"require('./package.json').version\""
+    "postpack": "pinst --enable"
   },
   "devDependencies": {
     "@types/chai": "^4.3.11",
